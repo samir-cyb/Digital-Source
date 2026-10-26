@@ -1,0 +1,24 @@
+name: digital_source
+description: Digital Source studio operations
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: '>=3.13.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 1.0.9
+  http: 1.6.0
+  go_router: 18.1.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf

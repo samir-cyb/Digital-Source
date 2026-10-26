@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="ds-build" content="__DS_BUILD_REVISION__">
+  <meta name="description" content="Digital Source studio operations workspace.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Digital Source">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <title>Digital Source</title>
+</head>
+<body>
+  <script>
+    (async function startStudio() {
+      // Retire only this app's legacy Flutter worker and static-asset caches.
+      // Account data and the local SQLite database are not browser asset caches.
+      try {
+        if ('serviceWorker' in navigator) {
+          const registrations = await navigator.serviceWorker.getRegistrations();
+          const scope = new URL(document.baseURI).href;
+          await Promise.all(registrations.filter(r => r.scope === scope).map(r => r.unregister()));
+        }
+        if ('caches' in window) {
+          await Promise.all(['flutter-app-cache', 'flutter-temp-cache', 'flutter-app-manifest'].map(name => caches.delete(name)));
+        }
+      } catch (error) {
+        console.warn('Legacy static cache cleanup could not finish.', error);
+      }
+      const revision = document.querySelector('meta[name="ds-build"]').content;
+      const bootstrap = document.createElement('script');
+      bootstrap.src = 'flutter_bootstrap.js?build=' + encodeURIComponent(revision);
+      bootstrap.async = true;
+      document.body.appendChild(bootstrap);
+    })();
+  </script>
+</body>
+</html>
+

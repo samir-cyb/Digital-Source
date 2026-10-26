@@ -1,0 +1,462 @@
+{
+  "user": {
+    "id": "2c04d8ae-dda9-4622-8a70-c14e9f908054",
+    "employee_id": "DS-001",
+    "name": "Nabil Rahman",
+    "email": "owner@digitalsource.local",
+    "roles": [
+      "manager"
+    ],
+    "title": "Studio director",
+    "department": "Leadership",
+    "avatar": "assets/images/person1.jpg",
+    "active": true
+  },
+  "landing_route": "/manager",
+  "people": [
+    {
+      "id": "2c04d8ae-dda9-4622-8a70-c14e9f908054",
+      "employee_id": "DS-001",
+      "name": "Nabil Rahman",
+      "email": "owner@digitalsource.local",
+      "roles": [
+        "manager"
+      ],
+      "title": "Studio director",
+      "department": "Leadership",
+      "avatar": "assets/images/person1.jpg",
+      "active": true
+    },
+    {
+      "id": "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4",
+      "employee_id": "DS-002",
+      "name": "Nusrat Jahan",
+      "email": "nusrat@digitalsource.local",
+      "roles": [
+        "manager"
+      ],
+      "title": "Project manager",
+      "department": "Projects",
+      "avatar": "assets/images/person2.jpg",
+      "active": true
+    },
+    {
+      "id": "309dc1a1-25ed-4d6b-a7d8-28fb732caee3",
+      "employee_id": "DS-003",
+      "name": "Arif Hossain",
+      "email": "arif@digitalsource.local",
+      "roles": [
+        "member"
+      ],
+      "title": "Interior designer",
+      "department": "Design",
+      "avatar": "assets/images/person3.jpg",
+      "active": true
+    },
+    {
+      "id": "c406babe-0528-46b9-a30c-ddaaee11e28c",
+      "employee_id": "DS-004",
+      "name": "Farhana Islam",
+      "email": "farhana@digitalsource.local",
+      "roles": [
+        "member"
+      ],
+      "title": "Site supervisor",
+      "department": "Site operations",
+      "avatar": "assets/images/person4.jpg",
+      "active": true
+    },
+    {
+      "id": "40282934-96ed-4059-8935-92cc04243d68",
+      "employee_id": "DS-005",
+      "name": "Tanvir Ahmed",
+      "email": "tanvir@digitalsource.local",
+      "roles": [
+        "member"
+      ],
+      "title": "Sourcing specialist",
+      "department": "Procurement",
+      "avatar": "assets/images/person5.jpg",
+      "active": true
+    },
+    {
+      "id": "61683d15-2204-49f5-ab42-a930a67a1899",
+      "employee_id": "DS-006",
+      "name": "Mehzabin Noor",
+      "email": "mehzabin@digitalsource.local",
+      "roles": [
+        "finance"
+      ],
+      "title": "Finance executive",
+      "department": "Finance",
+      "avatar": "assets/images/person6.jpg",
+      "active": true
+    },
+    {
+      "id": "889cfe93-0bac-4829-972f-e1757ed6d615",
+      "employee_id": "DS-007",
+      "name": "Rafiul Karim",
+      "email": "rafiul@digitalsource.local",
+      "roles": [
+        "member"
+      ],
+      "title": "Technical designer",
+      "department": "Design",
+      "avatar": "assets/images/person7.jpg",
+      "active": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "f231d443-0239-4ad2-85fb-b4a4e94d9efd",
+      "name": "The Lakeview residence",
+      "client": "Private client",
+      "site": "Dhanmondi, Dhaka",
+      "phase": "Design",
+      "due_date": "2026-12-10",
+      "image": "assets/images/residence.jpg",
+      "member_ids": [
+        "2c04d8ae-dda9-4622-8a70-c14e9f908054",
+        "309dc1a1-25ed-4d6b-a7d8-28fb732caee3",
+        "40282934-96ed-4059-8935-92cc04243d68",
+        "61683d15-2204-49f5-ab42-a930a67a1899",
+        "889cfe93-0bac-4829-972f-e1757ed6d615",
+        "c406babe-0528-46b9-a30c-ddaaee11e28c",
+        "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4"
+      ],
+      "lead_id": "c406babe-0528-46b9-a30c-ddaaee11e28c",
+      "membership_roles": {
+        "2c04d8ae-dda9-4622-8a70-c14e9f908054": "manager",
+        "309dc1a1-25ed-4d6b-a7d8-28fb732caee3": "member",
+        "40282934-96ed-4059-8935-92cc04243d68": "member",
+        "61683d15-2204-49f5-ab42-a930a67a1899": "member",
+        "889cfe93-0bac-4829-972f-e1757ed6d615": "member",
+        "c406babe-0528-46b9-a30c-ddaaee11e28c": "lead",
+        "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4": "manager"
+      },
+      "progress": 33,
+      "task_count": 3,
+      "completed_count": 1,
+      "blocked_count": 0
+    },
+    {
+      "id": "fe73a3f2-1b3a-4760-8cf2-a7873c387a95",
+      "name": "A workspace that inspires",
+      "client": "Northstar",
+      "site": "Banani, Dhaka",
+      "phase": "Sourcing",
+      "due_date": "2026-11-27",
+      "image": "assets/images/office.jpg",
+      "member_ids": [
+        "2c04d8ae-dda9-4622-8a70-c14e9f908054",
+        "309dc1a1-25ed-4d6b-a7d8-28fb732caee3",
+        "40282934-96ed-4059-8935-92cc04243d68",
+        "61683d15-2204-49f5-ab42-a930a67a1899",
+        "889cfe93-0bac-4829-972f-e1757ed6d615",
+        "c406babe-0528-46b9-a30c-ddaaee11e28c",
+        "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4"
+      ],
+      "lead_id": "c406babe-0528-46b9-a30c-ddaaee11e28c",
+      "membership_roles": {
+        "2c04d8ae-dda9-4622-8a70-c14e9f908054": "manager",
+        "309dc1a1-25ed-4d6b-a7d8-28fb732caee3": "member",
+        "40282934-96ed-4059-8935-92cc04243d68": "member",
+        "61683d15-2204-49f5-ab42-a930a67a1899": "member",
+        "889cfe93-0bac-4829-972f-e1757ed6d615": "member",
+        "c406babe-0528-46b9-a30c-ddaaee11e28c": "lead",
+        "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4": "manager"
+      },
+      "progress": 0,
+      "task_count": 3,
+      "completed_count": 0,
+      "blocked_count": 0
+    },
+    {
+      "id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "name": "Bata flagship experience",
+      "client": "Bata",
+      "site": "Gulshan, Dhaka",
+      "phase": "Installation",
+      "due_date": "2026-11-13",
+      "image": "assets/images/retail.jpg",
+      "member_ids": [
+        "2c04d8ae-dda9-4622-8a70-c14e9f908054",
+        "309dc1a1-25ed-4d6b-a7d8-28fb732caee3",
+        "40282934-96ed-4059-8935-92cc04243d68",
+        "61683d15-2204-49f5-ab42-a930a67a1899",
+        "889cfe93-0bac-4829-972f-e1757ed6d615",
+        "c406babe-0528-46b9-a30c-ddaaee11e28c",
+        "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4"
+      ],
+      "lead_id": "c406babe-0528-46b9-a30c-ddaaee11e28c",
+      "membership_roles": {
+        "2c04d8ae-dda9-4622-8a70-c14e9f908054": "manager",
+        "309dc1a1-25ed-4d6b-a7d8-28fb732caee3": "member",
+        "40282934-96ed-4059-8935-92cc04243d68": "member",
+        "61683d15-2204-49f5-ab42-a930a67a1899": "member",
+        "889cfe93-0bac-4829-972f-e1757ed6d615": "member",
+        "c406babe-0528-46b9-a30c-ddaaee11e28c": "lead",
+        "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4": "manager"
+      },
+      "progress": 50,
+      "task_count": 8,
+      "completed_count": 4,
+      "blocked_count": 1
+    }
+  ],
+  "tasks": [
+    {
+      "id": "4f02848b-b927-43a2-bc42-316da34c395c",
+      "project_id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "title": "Verify the final site measurements",
+      "assignee_id": "c406babe-0528-46b9-a30c-ddaaee11e28c",
+      "status": "done",
+      "due_date": "2026-10-24",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "24d66056-9ee4-4906-be47-2a8b77ccb081",
+      "project_id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "title": "Confirm the furniture production drawings",
+      "assignee_id": "889cfe93-0bac-4829-972f-e1757ed6d615",
+      "status": "done",
+      "due_date": "2026-10-25",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "8f0014ea-827d-472a-945b-9fdb5bf28d33",
+      "project_id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "title": "Complete electrical routing review",
+      "assignee_id": "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4",
+      "status": "done",
+      "due_date": "2026-10-25",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "dc1353fe-5501-493d-a870-1be34e9eb6bf",
+      "project_id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "title": "Place the timber purchase order",
+      "assignee_id": "40282934-96ed-4059-8935-92cc04243d68",
+      "status": "done",
+      "due_date": "2026-10-25",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "05142c98-f528-4d32-a0a5-76ce3c6fecf7",
+      "project_id": "f231d443-0239-4ad2-85fb-b4a4e94d9efd",
+      "title": "Record the client design brief",
+      "assignee_id": "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4",
+      "status": "done",
+      "due_date": "2026-10-25",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "dd11e0b2-4a6b-4670-8604-5d8d3a7c477a",
+      "project_id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "title": "Approve the storefront lighting layout",
+      "assignee_id": "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4",
+      "status": "review",
+      "due_date": "2026-10-26",
+      "priority": "high",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "305e0cac-f6f6-4681-a668-78b3969b0e7e",
+      "project_id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "title": "Install the glass display partitions",
+      "assignee_id": "c406babe-0528-46b9-a30c-ddaaee11e28c",
+      "status": "blocked",
+      "due_date": "2026-10-26",
+      "priority": "high",
+      "blocker": "Waiting for supplier delivery of tempered glass.",
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "09eaf403-0d5b-4a8b-a5bb-9dee587d53c2",
+      "project_id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "title": "Finalize the material finish board",
+      "assignee_id": "309dc1a1-25ed-4d6b-a7d8-28fb732caee3",
+      "status": "in_progress",
+      "due_date": "2026-10-26",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "58d1053f-73d7-4f8b-b74e-96db3503ffd7",
+      "project_id": "fe73a3f2-1b3a-4760-8cf2-a7873c387a95",
+      "title": "Confirm the ergonomic chair samples",
+      "assignee_id": "40282934-96ed-4059-8935-92cc04243d68",
+      "status": "todo",
+      "due_date": "2026-10-26",
+      "priority": "high",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "529021a0-ce65-40e0-bd57-60425c9592dd",
+      "project_id": "f231d443-0239-4ad2-85fb-b4a4e94d9efd",
+      "title": "Explore the living room material palette",
+      "assignee_id": "309dc1a1-25ed-4d6b-a7d8-28fb732caee3",
+      "status": "in_progress",
+      "due_date": "2026-10-26",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "debb1cde-d99f-48d8-8124-c089674042ae",
+      "project_id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "title": "Inspect the showroom handover checklist",
+      "assignee_id": "c682f7f9-6002-4d3b-8cb3-2e5f5d8a1fc4",
+      "status": "todo",
+      "due_date": "2026-10-27",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "97e9dc08-045a-494c-93fd-39dd0dd1194e",
+      "project_id": "fe73a3f2-1b3a-4760-8cf2-a7873c387a95",
+      "title": "Review the meeting room concept",
+      "assignee_id": "309dc1a1-25ed-4d6b-a7d8-28fb732caee3",
+      "status": "review",
+      "due_date": "2026-10-27",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "dea887ad-4530-487c-acec-5e4ce176a98b",
+      "project_id": "fe73a3f2-1b3a-4760-8cf2-a7873c387a95",
+      "title": "Prepare the site access schedule",
+      "assignee_id": "c406babe-0528-46b9-a30c-ddaaee11e28c",
+      "status": "in_progress",
+      "due_date": "2026-10-27",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    },
+    {
+      "id": "4287a8ba-2da6-49fd-be0b-ec0f456a13d2",
+      "project_id": "f231d443-0239-4ad2-85fb-b4a4e94d9efd",
+      "title": "Share the revised space plan",
+      "assignee_id": "889cfe93-0bac-4829-972f-e1757ed6d615",
+      "status": "todo",
+      "due_date": "2026-10-27",
+      "priority": "normal",
+      "blocker": null,
+      "review_note": null,
+      "version": 1
+    }
+  ],
+  "materials": [
+    {
+      "id": "70e818cb-c050-461c-87cc-c5c54eb8522f",
+      "project_id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "supplier_id": "1e358c01-7500-42cb-985f-e02b6b36b42c",
+      "owner_id": "40282934-96ed-4059-8935-92cc04243d68",
+      "item": "12mm tempered glass",
+      "unit": "panels",
+      "quantity": "12.000",
+      "received": "8.000",
+      "due_date": "2026-10-26",
+      "status": "partially_received"
+    },
+    {
+      "id": "ce64e007-08e3-45e1-a119-e0f041000122",
+      "project_id": "31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "supplier_id": "e81dac8b-fbf4-4cb6-bcf1-39022a42d95e",
+      "owner_id": "40282934-96ed-4059-8935-92cc04243d68",
+      "item": "Premium oak veneer",
+      "unit": "sheets",
+      "quantity": "24.000",
+      "received": "24.000",
+      "due_date": "2026-10-25",
+      "status": "received"
+    },
+    {
+      "id": "1d7601ab-5c40-4904-bbe9-cfd72c1dcf49",
+      "project_id": "fe73a3f2-1b3a-4760-8cf2-a7873c387a95",
+      "supplier_id": "47b79aef-f6d3-41b5-b4d4-3a72b185115d",
+      "owner_id": "40282934-96ed-4059-8935-92cc04243d68",
+      "item": "Ergonomic task chairs",
+      "unit": "pieces",
+      "quantity": "18.000",
+      "received": "6.000",
+      "due_date": "2026-10-29",
+      "status": "partially_received"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "1e358c01-7500-42cb-985f-e02b6b36b42c",
+      "name": "Crystal Glass Works",
+      "category": "Glass"
+    },
+    {
+      "id": "e81dac8b-fbf4-4cb6-bcf1-39022a42d95e",
+      "name": "Timber & Grain",
+      "category": "Wood"
+    },
+    {
+      "id": "47b79aef-f6d3-41b5-b4d4-3a72b185115d",
+      "name": "Form Seating",
+      "category": "Furniture"
+    }
+  ],
+  "money": [],
+  "reports": [],
+  "notifications": [
+    {
+      "id": "65c9edf4-f310-410b-b777-9a8fa7ba97c5",
+      "title": "Glass delivery is holding up installation",
+      "body": "The site team is waiting for four remaining glass panels.",
+      "route": "/sourcing",
+      "read": false,
+      "created_at": "2026-10-26T12:18:39.492285"
+    },
+    {
+      "id": "2488d953-88d5-42c0-a5e2-4b173f2975fe",
+      "title": "Lighting layout needs a review",
+      "body": "Bata flagship experience has a task waiting for approval.",
+      "route": "/projects/31330eb8-db06-46bd-83a8-ef5d8ca68eba",
+      "read": false,
+      "created_at": "2026-10-26T12:18:39.492279"
+    },
+    {
+      "id": "5427eb82-8ca9-4e28-93ae-7ae676136607",
+      "title": "Your studio workspace is ready",
+      "body": "Sample projects and fictional team profiles are ready to explore.",
+      "route": "/projects",
+      "read": false,
+      "created_at": "2026-10-26T12:18:39.492266"
+    }
+  ],
+  "plans": [],
+  "development_mode": true
+}
